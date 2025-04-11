@@ -20,7 +20,7 @@ public class Main {
         list.add(new Product("Notebook", 1200.00));
         list.add(new Product("Celular", 900.00));
 
-        list.forEach(Product::StaticPriceUpdate);
+        list.forEach(Product::nonStaticPriceUpdate);
 
         list.forEach(System.out::println);
     }
